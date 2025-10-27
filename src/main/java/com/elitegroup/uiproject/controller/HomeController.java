@@ -36,4 +36,9 @@ public class HomeController {
         return "home/createDonation";
     }
 
+    @GetMapping("/userMenu")
+    public String userMenu() {
+        return "home/userMenu";
+    }
+
 }
