@@ -20,4 +20,20 @@ public class HomeController {
     public String login() {
         return "home/login";
     }
+
+    @GetMapping("/info")
+    public String info() {
+        return "home/info";
+    }
+
+    @GetMapping("/receiveDonation")
+    public String receiveDonation() {
+        return "home/receiveDonation";
+    }
+
+    @GetMapping("/createDonation")
+    public String createDonation() {
+        return "home/createDonation";
+    }
+
 }
