@@ -46,4 +46,9 @@ public class HomeController {
         return "home/confirmDonation";
     }
 
+    @GetMapping("/confirmReservation")
+    public String confirmReservation() {
+        return "home/confirmReservation";
+    }
+
 }
