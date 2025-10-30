@@ -23,6 +23,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 nav a {
@@ -78,7 +81,7 @@ nav img {
 
 h1 {
     font-size: 2.5em;
-    color: #667eea;
+    color: white;
     margin-bottom: 20px;
     text-transform: capitalize;
     position: relative;
@@ -155,9 +158,9 @@ h1::after {
 }
 
 .circle p {
-    font-size: 1rem;
+    font-size: 0.5rem;
     color: #1f2937;
-    line-height: 1.6;
+    line-height: 1.3;
     font-weight: 500;
     letter-spacing: 0.3px;
     margin: 0;
@@ -185,6 +188,7 @@ h1::after {
 	width: 30%;
 	padding: 10px;
 	margin: 10px;
+    left-margin: 20px;
 	float: left;
 	box-sizing: border-box;
 	text-align: center;
