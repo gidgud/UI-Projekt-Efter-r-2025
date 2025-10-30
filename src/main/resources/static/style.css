@@ -24,11 +24,10 @@ nav a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*width: 100%;*/
 }
 
 .login form {
-	background-color: #c6ecd9;
+	background-color: #C6ECD9;
 	padding: 35px 30px;
 	border-radius: 12px;
 	width: 320px;
@@ -41,13 +40,12 @@ nav a:hover {
 	font-weight: 600;
 	color: #333;
 	font-size: 14px;
-	margin-bottom: 4px;
 }
 
 .login input[type="text"],
 .login input[type="password"] {
 	padding: 10px 12px;
-	border: 1px solid #79d2a6;
+	border: 1px solid #79D2A6;
 	border-radius: 8px;
 	font-size: 15px;
 	width: 100%;
@@ -56,8 +54,8 @@ nav a:hover {
 
 
 .login button {
-	background-color: #ffffff;
-	color: #c6ecd9;
+	background-color: #FFFFFF;
+	color: #79D2A6;
 	border: none;
 	border-radius: 8px;
 	padding: 10px;
@@ -68,7 +66,7 @@ nav a:hover {
 }
 
 .login button:hover {
-	background-color: #79d2a6;
-	color: #ffffff;
+	background-color: #79D2A6;
+	color: #FFFFFF;
 }
 
