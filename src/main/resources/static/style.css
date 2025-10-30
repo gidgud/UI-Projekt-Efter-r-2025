@@ -220,18 +220,20 @@ button {
 
 .login form {
 	background-color: #C6ECD9;
+    margin-top: 50px;
 	padding: 35px 30px;
 	border-radius: 12px;
-	width: 320px;
+	width: 375px;
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+    gap: 5px;
 }
 
 .login label {
 	font-weight: 600;
 	color: #333;
 	font-size: 14px;
+    margin-top: 15px;
 }
 
 .login input[type="text"],
@@ -254,7 +256,7 @@ button {
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
-	margin-top: 5px;
+    margin-top: 10px;
 }
 
 .login button:hover {
