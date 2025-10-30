@@ -21,6 +21,7 @@ nav {
     background-color: #40bf80;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
 }
 
@@ -50,6 +51,12 @@ nav img {
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
 .madspild-info,
