@@ -18,8 +18,9 @@ body {
 }
 
 nav {
-    background-color: #40bf80;
-    display: flex;
+	overflow: hidden;
+	background-color: #40bf80;
+	border-radius: 8px;
 }
 
 nav a {
@@ -193,3 +194,56 @@ h1::after {
 button {
 	padding: 5px 10px;
 }
+
+
+/* CSS FOR LOGIN */
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login form {
+	background-color: #C6ECD9;
+	padding: 35px 30px;
+	border-radius: 12px;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.login label {
+	font-weight: 600;
+	color: #333;
+	font-size: 14px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+	padding: 10px 12px;
+	border: 1px solid #79D2A6;
+	border-radius: 8px;
+	font-size: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.login button {
+	background-color: #FFFFFF;
+	color: #79D2A6;
+	border: none;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.login button:hover {
+	background-color: #79D2A6;
+	color: #FFFFFF;
+}
+
