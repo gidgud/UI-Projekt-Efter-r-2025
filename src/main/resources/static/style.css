@@ -271,3 +271,76 @@ button {
 	color: #FFFFFF;
 }
 
+
+/* CSS FOR CREATE LOGIN */
+.selectCompanyOrOrganisatoin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.selectCompanyOrOrganisatoin label {
+    margin-left: 25px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: #333;
+    font-size: 20px;
+}
+
+.selectCompanyOrOrganisatoin input {
+    margin-right: 25px;
+}
+
+.create-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-login form {
+    background-color: #C6ECD9;
+    margin-top: 15px;
+    padding: 35px 30px;
+    border-radius: 12px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.create-login label {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.create-login input[type="text"],
+.create-login input[type="password"] {
+    padding: 10px 12px;
+    border: 1px solid #79D2A6;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.create-login button {
+    background-color: #FFFFFF;
+    color: #79D2A6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-login button:hover {
+    background-color: #79D2A6;
+    color: #FFFFFF;
+}
