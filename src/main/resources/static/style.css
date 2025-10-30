@@ -150,6 +150,37 @@ h1::after {
 	box-sizing: border-box;
 	text-align: center;
 }
+
+
+.donationBoxes {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 30%;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.donationBoxes p {
+	margin: 5px 0;
+}
+
+.donationBoxes button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.donationBoxes button:hover {
+	background-color: #45a049;
+}
+
 .circle p {
 	padding: 20px;
 	font-size: 14px;
