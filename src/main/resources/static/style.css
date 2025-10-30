@@ -20,26 +20,55 @@ nav a:hover {
 
 
 /* CSS FOR LOGIN */
-
 .login {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/*width: 100%;*/
 }
 
 .login form {
-	width: 250px;
-	height: 250px;
-
-	padding: 20px;
-	border-radius: 8px;
 	background-color: #c6ecd9;
+	padding: 35px 30px;
+	border-radius: 12px;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
 }
 
-form {
-	display: grid;
-	place-items: center;
+.login label {
+	font-weight: 600;
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 4px;
 }
 
-form label {
-text-align: right}
+.login input[type="text"],
+.login input[type="password"] {
+	padding: 10px 12px;
+	border: 1px solid #79d2a6;
+	border-radius: 8px;
+	font-size: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.login button {
+	background-color: #ffffff;
+	color: #c6ecd9;
+	border: none;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.login button:hover {
+	background-color: #79d2a6;
+	color: #ffffff;
+}
+
