@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> create </title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> create </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -19,28 +19,22 @@
 
 <div class="selectCompanyOrOrganisatoin">
     <label for="company"> Virksomhed </label>
-    <input type="checkbox" id="company" name="company" value="company"> <br>
+    <input type="radio" id="company" name="selectType" value="company">
     <label for="organisation"> Organisation </label>
-    <input type="checkbox" id="organisation" name="organisation" value="organisation"> <br>
+    <input type="radio" id="organisation" name="selectType" value="organisation">
 </div>
 
-<div class="username">
-    <label><b>Brugernavn</b></label>
-    <br><input type="text" placeholder="Indtast brugernavn"></br>
-</div>
-
-<div class="password">
-    <label><b>Kodeord</b></label>
-    <br><input type="text" placeholder="Indtast kodeord"></br>
-</div>
-
-<div class="repeatPassword">
-    <label><b>Gentag Kodeord</b></label>
-    <br><input type="text" placeholder="Gentag kodeord"></br>
-</div>
-
-<div class="createButton">
+<div class="create-login">
     <form action="/userMenu" method="get">
+        <label><b>Brugernavn</b></label>
+        <input type="text" placeholder="Indtast brugernavn">
+
+        <label><b>Kodeord</b></label>
+        <input type="text" placeholder="Indtast kodeord">
+
+        <label><b>Gentag Kodeord</b></label>
+        <input type="text" placeholder="Gentag kodeord"><br>
+
         <button type="submit">Opret bruger</button>
     </form>
 </div>
