@@ -371,16 +371,6 @@ button {
 
 }
 
-.menu div {
-
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-bottom: 8%;
-    width: 100%;
-
-}
-
 .menu h1 {
 
     text-align: center;
@@ -399,15 +389,13 @@ button {
 
 .menu input[type="text"] {
 
-    flex: 1;
-
-}
-
-.menu input[type="submit"] {
-
-    align-self: center;
-    font-size: 10px;
-    width: 40%;
+    padding: 10px 12px;
+    border: 1px solid #79D2A6;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 
 }
 
