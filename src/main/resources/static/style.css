@@ -411,6 +411,23 @@ button {
 
 }
 
+.menu button {
+    background-color: #FFFFFF;
+    color: #79D2A6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.menu button:hover {
+    background-color: #79D2A6;
+    color: #FFFFFF;
+}
+
 .round-text-field-display {
 
     display: flex;
