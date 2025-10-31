@@ -26,6 +26,11 @@ public class HomeController {
         return "home/info";
     }
 
+    @GetMapping("/loggedInInfo")
+    public String loggedInInfo() {
+        return "home/loggedInInfo";
+    }
+
     @GetMapping("/receiveDonation")
     public String receiveDonation() {
         return "home/receiveDonation";
