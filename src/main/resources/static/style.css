@@ -218,7 +218,10 @@ button {
 }
 
 
-/* CSS FOR LOGIN */
+
+/* ------------------
+    CSS FOR LOGIN
+-------------------*/
 .login {
 	display: flex;
 	justify-content: center;
@@ -227,7 +230,7 @@ button {
 
 .login form {
 	background-color: #C6ECD9;
-    margin-top: 50px;
+    margin-top: 72px;
 	padding: 35px 30px;
 	border-radius: 12px;
 	width: 375px;
@@ -253,7 +256,6 @@ button {
 	box-sizing: border-box;
 }
 
-
 .login button {
 	background-color: #FFFFFF;
 	color: #79D2A6;
@@ -272,13 +274,16 @@ button {
 }
 
 
-/* CSS FOR CREATE LOGIN */
+
+/* ----------------------
+    CSS FOR CREATE LOGIN
+------------------------*/
+
 .selectCompanyOrOrganisatoin {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
-
+    margin-top: 20px;
 }
 
 .selectCompanyOrOrganisatoin label {
@@ -301,7 +306,7 @@ button {
 
 .create-login form {
     background-color: #C6ECD9;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 35px 30px;
     border-radius: 12px;
     width: 375px;
@@ -326,7 +331,6 @@ button {
     width: 100%;
     box-sizing: border-box;
 }
-
 
 .create-login button {
     background-color: #FFFFFF;
