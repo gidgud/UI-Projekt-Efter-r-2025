@@ -81,7 +81,7 @@ nav img {
 
 h1 {
     font-size: 2.5em;
-    color: white;
+    color: #667eea;
     margin-bottom: 20px;
     text-transform: capitalize;
     position: relative;
@@ -128,6 +128,7 @@ h1::after {
 .frontPageTitle {
 	text-align: center;
 	margin-bottom: 3rem;
+    color: white;
 }
 .companyInfo {
 	float: left;
