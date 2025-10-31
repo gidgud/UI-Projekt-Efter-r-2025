@@ -168,9 +168,17 @@ h1::after {
     margin: 0;
 }
 
-.circle:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+
+
+/* Recieve donation page*/
+.donation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* equal space on left, between, and right */
+    align-items: flex-start;
+    padding: 20px; /* optional spacing from window edges */
+    box-sizing: border-box;
+    gap: 20px; /* consistent space between boxes */
 }
 
 .donationBoxes {
@@ -436,6 +444,11 @@ button {
     gap: 20%;
     margin-top: 15%;
 
+}
+
+.round-text-field:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
 }
 
 .round-text-field {
