@@ -12,16 +12,25 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FFF2E6 0%, #E6FFCC 100%);
     background-attachment: fixed;
     min-height: 100vh;
 }
 
+
+
+/* ----------------
+    CSS FOR NAV
+-----------------*/
 nav {
-    background-color: #40bf80;
+    background-color: #2E7D32;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 nav a {
@@ -33,8 +42,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #8FD693;
+    color: #2E7D32;
 }
 
 nav a p {
@@ -52,6 +61,17 @@ nav img {
     vertical-align: middle;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+/* ------------------
+    CSS FOR INFO
+-------------------*/
 .madspild-info,
 .mission {
     max-width: 800px;
@@ -71,7 +91,7 @@ nav img {
 
 h1 {
     font-size: 2.5em;
-    color: #667eea;
+    color: #8FD693;
     margin-bottom: 20px;
     text-transform: capitalize;
     position: relative;
@@ -85,7 +105,7 @@ h1::after {
     left: 0;
     width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #8FD693, #2E7D32);
     border-radius: 2px;
 }
 
@@ -114,10 +134,17 @@ h1::after {
     }
 }
 
-/* Front page */
+
+
+/* --------------------
+    CSS FOR FRONT PAGE
+----------------------*/
 .frontPageTitle {
 	text-align: center;
 	margin-bottom: 3rem;
+    margin-top: 30px;
+    color: #2E7D32;
+    font-family: 'Poppins', sans-serif;
 }
 .companyInfo {
 	float: left;
@@ -137,7 +164,7 @@ h1::after {
 .circle {
 	width: 200px;
 	height: 200px;
-	background: #C6ECD9;
+	background: #8FD693;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -148,28 +175,37 @@ h1::after {
 }
 
 .circle p {
-    font-size: 1rem;
-    color: #1f2937;
-    line-height: 1.6;
+    font-size: 0.5rem;
+    color: #2E7D32;
+    line-height: 1.3;
     font-weight: 500;
     letter-spacing: 0.3px;
     margin: 0;
 }
 
-.circle:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+
+
+/* ---------------------------
+    CSS FOR RECEIVE DONATION
+------------------------------*/
+.donation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* equal space on left, between, and right */
+    align-items: flex-start;
+    padding: 20px; /* optional spacing from window edges */
+    box-sizing: border-box;
+    gap: 20px; /* consistent space between boxes */
 }
 
 .donationBoxes {
 
-	border: 1px solid #000;
+	border: 1px solid #2E7D32;
 	padding: 10px;
 	width: calc(33.333% - 10px);
 	box-sizing: border-box;
 	text-align: center;
 }
-
 
 .donationBoxes {
 	background-color: white;
@@ -178,6 +214,7 @@ h1::after {
 	width: 30%;
 	padding: 10px;
 	margin: 10px;
+    left-margin: 20px;
 	float: left;
 	box-sizing: border-box;
 	text-align: center;
@@ -205,13 +242,15 @@ h1::after {
 	font-size: 14px;
 }
 
-
 button {
 	padding: 5px 10px;
 }
 
 
-/* CSS FOR LOGIN */
+
+/* ------------------
+    CSS FOR LOGIN
+-------------------*/
 .login {
 	display: flex;
 	justify-content: center;
@@ -219,8 +258,7 @@ button {
 }
 
 .login form {
-	background-color: #C6ECD9;
-    margin-top: 50px;
+    margin-top: 67px;
 	padding: 35px 30px;
 	border-radius: 12px;
 	width: 375px;
@@ -231,7 +269,7 @@ button {
 
 .login label {
 	font-weight: 600;
-	color: #333;
+	color: #2E7D32;
 	font-size: 14px;
     margin-top: 15px;
 }
@@ -239,17 +277,16 @@ button {
 .login input[type="text"],
 .login input[type="password"] {
 	padding: 10px 12px;
-	border: 1px solid #79D2A6;
+	border: 1px solid #81C784;
 	border-radius: 8px;
 	font-size: 15px;
 	width: 100%;
 	box-sizing: border-box;
 }
 
-
 .login button {
-	background-color: #FFFFFF;
-	color: #79D2A6;
+    background-color: #2E7D32;
+    color: #FFF8E1;
 	border: none;
 	border-radius: 8px;
 	padding: 10px;
@@ -260,7 +297,195 @@ button {
 }
 
 .login button:hover {
-	background-color: #79D2A6;
-	color: #FFFFFF;
+    background-color: #8FD693;
+    color: #2E7D32;
 }
 
+
+
+/* ----------------------
+    CSS FOR CREATE LOGIN
+------------------------*/
+.selectCompanyOrOrganisatoin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.selectCompanyOrOrganisatoin label {
+    margin-left: 25px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: #2E7D32;
+    font-size: 20px;
+}
+
+.selectCompanyOrOrganisatoin input {
+    margin-right: 25px;
+}
+
+.create-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-login form {
+    margin-top: 20px;
+    padding: 35px 30px;
+    border-radius: 12px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.create-login label {
+    font-weight: 600;
+    color: #2E7D32;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.create-login input[type="text"],
+.create-login input[type="password"] {
+    padding: 10px 12px;
+    border: 1px solid #81C784;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.create-login button {
+    background-color: #2E7D32;
+    color: #FFF8E1;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-login button:hover {
+    background-color: #8FD693;
+    color: #2E7D32;
+}
+
+
+
+/* ------------------
+    CSS FOR MENU
+-------------------*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+    margin: 20px auto;
+    padding: 20px 20px 20px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.menu h1 {
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.menu label {
+    text-align: left;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+.menu input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #79D2A6;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    background-color: #2E7D32;
+    color: #FFF8E1;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.menu button:hover {
+    background-color: #8FD693;
+    color: #2E7D32;
+}
+
+.round-text-field-display {
+
+    display: flex;
+    justify-content: center;
+
+    gap: 20%;
+    margin-top: 5%;
+
+}
+
+.round-text-field:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.round-text-field {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #8FD693;
+    color: #2E7D32;
+}
+
+
+
+/* ------------------
+    CSS FOR FOOTER
+-------------------*/
+footer {
+    background-color: #40bf80;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+footer p,
+footer a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
